@@ -1,0 +1,20 @@
+@media (max-width:375px) {
+    body {
+        font-size: 15px;
+    }
+
+    main {
+        background: hsl(225, 100%, 94%) url('../images/pattern-background-mobile.svg') no-repeat;
+    }
+
+    .container {
+        width: 90%;
+        height: 550px;
+        grid-template-rows: 180px 150px 80px 1fr;
+    }
+
+    .buttons a:first-child {
+        width: 300px;
+    }
+
+}
